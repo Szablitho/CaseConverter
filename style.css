@@ -1,0 +1,33 @@
+.title {
+    font-size: 48px;
+    font-family: Arial,sans-serif;
+}
+body {
+    width: 90%;
+    background-color: white;
+    margin: 0 auto;
+}
+main {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+/*main textarea {*/
+/*    width: 90%;*/
+/*    height: 80vh;*/
+/*}*/
+textarea {
+    align-self: center;
+}
+@media (min-width: 315px) {
+    textarea {
+        width: 90vw;
+    }
+
+}
+@media (min-width: 1024px) {
+    textarea {
+        width: 70vw;
+    }
+}
+
